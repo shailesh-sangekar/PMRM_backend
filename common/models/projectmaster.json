@@ -1,0 +1,52 @@
+{
+  "name": "projectmaster",
+  "plural": "Projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "projecttype": {
+      "type": "string"
+    },
+    "projectcode": {
+      "type": "string",
+      "required": true
+    },
+    "ProjectName": {
+      "type": "string"
+    },
+    "AccoutName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "startdate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "createdby": {
+      "type": "string"
+    },
+    "createdon": {
+      "type": "date"
+    },
+    "id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

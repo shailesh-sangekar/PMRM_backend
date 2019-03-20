@@ -1,0 +1,33 @@
+{
+  "name": "teammembers",
+  "plural": "TeamMembers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ProjectCode": {
+      "type": "string"
+    },
+    "TeamMemberName": {
+      "type": "string"
+    },
+    "TeamLeader": {
+      "type": "string"
+    },
+    "assigneddate": {
+      "type": "string"
+    },
+    "releasededate": {
+      "type": "date"
+    },
+    "id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

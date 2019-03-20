@@ -1,0 +1,37 @@
+{
+  "name": "accountmanagement",
+  "plural": "Accounts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "currency": {
+      "type": "string"
+    },
+    "contactperson": {
+      "type": "string"
+    },
+    "contactno": {
+      "type": "string"
+    },
+    "contactemail": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

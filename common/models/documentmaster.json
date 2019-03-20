@@ -1,0 +1,36 @@
+{
+  "name": "documentmaster",
+  "plural": "Documents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "projectcode": {
+      "type": "string"
+    },
+    "createdby": {
+      "type": "string"
+    },
+    "createdon": {
+      "type": "date"
+    },
+    "type": {
+      "type": "string"
+    },
+    "file": {
+      "type": "any"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

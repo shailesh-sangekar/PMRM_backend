@@ -1,0 +1,47 @@
+{
+  "name": "tasksmasters",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "startdate": {
+      "type": "date"
+    },
+    "duedate": {
+      "type": "date"
+    },
+    "assignedto": {
+      "type": "string"
+    },
+    "precomplete": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "parenttaskid": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "efforts": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

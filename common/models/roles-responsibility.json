@@ -1,0 +1,24 @@
+{
+  "name": "roles_responsibility",
+  "plural": "Roles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "RoleName": {
+      "type": "string"
+    },
+    "permission": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

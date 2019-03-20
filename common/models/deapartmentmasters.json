@@ -1,0 +1,24 @@
+{
+  "name": "deapartmentmasters",
+  "plural": "Departments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "head": {
+      "type": "string"
+    },
+    "createdby": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

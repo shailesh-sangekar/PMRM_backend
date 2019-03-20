@@ -1,0 +1,69 @@
+{
+  "name": "employeemasters",
+  "plural": "Employees",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "employeeid": {
+      "type": "string"
+    },
+    "dateofjoining": {
+      "type": "date"
+    },
+    "picture": {
+      "type": "any"
+    },
+    "username": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "ContactNo": {
+      "type": "string"
+    },
+    "ContactEmail": {
+      "type": "string"
+    },
+    "MaritalStatus": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

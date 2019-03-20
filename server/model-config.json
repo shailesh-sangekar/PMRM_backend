@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Message": {
+    "dataSource": null
+  },
+  "accountmanagement": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "deapartmentmasters": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "country": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "documentmaster": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "employeemasters": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "permissionmasters": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "projectmaster": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "userstorymaster": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "teammembers": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  },
+  "tasksmasters": {
+    "dataSource": "PMRM_DB",
+    "public": false
+  },
+  "roles_responsibility": {
+    "dataSource": "PMRM_DB",
+    "public": true
+  }
+}

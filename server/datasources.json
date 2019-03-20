@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "PMRM_DB": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "PMRM",
+    "password": "$hailesh@123",
+    "name": "PMRM_DB",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

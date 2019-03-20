@@ -1,0 +1,30 @@
+{
+  "name": "permissionmasters",
+  "plural": "Permissions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "screenname": {
+      "type": "string"
+    },
+    "read": {
+      "type": "boolean"
+    },
+    "write": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
