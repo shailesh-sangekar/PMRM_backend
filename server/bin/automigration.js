@@ -28,4 +28,3 @@ dataSource.isActual(models, function(err, actual) {
   }
 });
 */
-
