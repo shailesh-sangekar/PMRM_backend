@@ -1,3 +1,4 @@
+// eslint-disable-next-line strict
 module.exports = function(Message) {
   Message.greet = function(msg, cb) {
     process.nextTick(function() {
